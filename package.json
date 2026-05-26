@@ -10,11 +10,15 @@
     "docs": "jsdoc -c jsdoc.json",
     "test": "jest --runInBand"
   },
-  "keywords": ["jsdoc", "documentation"],
+  "keywords": [
+    "jsdoc",
+    "documentation"
+  ],
   "author": "Izan Sahi",
   "license": "ISC",
   "description": "Proyecto de documentación con JSDoc",
   "devDependencies": {
+    "jest": "^30.4.2",
     "jsdoc": "^4.0.5"
   }
 }
